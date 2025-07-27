@@ -89,6 +89,7 @@ It's designed for users who want to store backups on Discord without paying for 
 *   **Discord API Limits:** The script includes delays (`time.sleep`) to avoid hitting rate limits. You can adjust these if needed, but be cautious.
 *   **Webhook Name Restrictions:** The script automatically replaces "discord" in webhook names to comply with Discord's naming rules.
 *   **Unicode Errors:** The `subprocess` call for WinRAR is configured to handle potential character encoding issues.
+*   **Upload Errors:** If get the upload error.You can reduce the upload byte.
 
 ## License
 
